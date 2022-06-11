@@ -27,8 +27,8 @@ window.addEventListener("load", (e) => {
   getExchangeRate();
 });
 
-getButton.addEventListener("click",e=>{
-  e.preventDefault;
+getButton.addEventListener("click", (e) => {
+  e.preventDefault();
   getExchangeRate();
 });
 
